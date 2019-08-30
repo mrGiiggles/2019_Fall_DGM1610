@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.AccessControl;
 using UnityEngine;
 
 public class Practice : MonoBehaviour
 {
-    // Use this for initialization
-    void Start()
+    private void update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SayHello();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SayHello()
     {
+        print("Hello World");
     }
 }
