@@ -27,10 +27,15 @@ public class Adventurescript : MonoBehaviour
     {
         switch (currentstate)
         { case States.tavern:
-            tavern();
+            //Tavern();
             break;
             
         }
         
     }
+
+   // Tavern()
+//    {
+        
+   // }
 }

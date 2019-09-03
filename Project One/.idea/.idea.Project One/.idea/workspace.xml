@@ -13,8 +13,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Practice.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Adventure script.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Variables.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StartScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Practice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Adventure script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
       </list>
     </option>
   </component>
@@ -74,6 +76,7 @@
       <workItem from="1567111748215" duration="2521000" />
       <workItem from="1567180403183" duration="777000" />
       <workItem from="1567480821774" duration="980000" />
+      <workItem from="1567542822588" duration="2561000" />
     </task>
     <servers />
   </component>
