@@ -9,7 +9,6 @@ public class Adventurescript : MonoBehaviour
         tavern,
         bar,
         table,
-        order,
         food,
         drink
     };
@@ -29,6 +28,17 @@ public class Adventurescript : MonoBehaviour
         { case States.tavern:
             //Tavern();
             break;
+        case States.bar:
+            //Bar();
+            break;
+        case States.table:
+            //Table();
+            break;
+        case States.food:
+            //Food();
+            break;
+            
+        
             
         }
         
