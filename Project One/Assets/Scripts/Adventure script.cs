@@ -12,6 +12,7 @@ public class Adventurescript : MonoBehaviour
         food,
         drink
     };
+    
 
     public States currentstate;
     
