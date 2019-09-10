@@ -12,10 +12,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Practice.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Adventure script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Variables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Adventure script.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Practice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Variables.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Adventure script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +81,7 @@
       <workItem from="1567542822588" duration="2561000" />
       <workItem from="1567657594358" duration="496000" />
       <workItem from="1567786271222" duration="808000" />
+      <workItem from="1568147851049" duration="523000" />
     </task>
     <servers />
   </component>
