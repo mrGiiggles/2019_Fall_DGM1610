@@ -7,6 +7,7 @@ public class Adventurescript : MonoBehaviour
     public enum States
     {
         tavern,
+        inside,
         bar,
         table,
         food,
@@ -27,7 +28,10 @@ public class Adventurescript : MonoBehaviour
     {
         switch (currentstate)
         { case States.tavern:
-            //Tavern();
+            Tavern();
+            break;
+        case States.inside:
+            Inside();
             break;
         case States.bar:
             //Bar();
@@ -45,8 +49,20 @@ public class Adventurescript : MonoBehaviour
         
     }
 
-   // Tavern()
-//    {
-        
-   // }
+   private void Tavern()
+    {
+     print("You stand in front of Bloody Boot Tavern");
+     if (Input.GetKeyDown(KeyCode.Space))
+     {
+         currentstate = States.inside;
+     }
+
+    }
+
+   private void Inside()
+   {
+       print("You walk through the door. There's a table free far from the fire and a stool available at the bar");
+       if (Input.GetKeyDown(KeyCode.Space)) { currentstate = States.bar;}
+       if (Input.GetKeyDown(KeyCode.LeftAlt)) { currentstate = States.bar;}
+   }
 }
