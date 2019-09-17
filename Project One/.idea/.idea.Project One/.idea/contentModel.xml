@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Adventure script.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
           <e p="Practice.cs" t="Include" />
           <e p="StartScript.cs" t="Include" />
           <e p="Variables.cs" t="Include" />
