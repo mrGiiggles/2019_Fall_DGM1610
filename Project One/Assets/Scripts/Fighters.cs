@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Adventurers", menuName = "Chosen ones")]
-public class Adventurer : ScriptableObject
+[CreateAssetMenu(fileName = "Fighters", menuName = "Chosen ones")]
+public class Fighters : ScriptableObject
 {
     public string figthingClass;
     public string name;
@@ -15,5 +15,5 @@ public class Adventurer : ScriptableObject
     public int charisma;
     public int finesse;
 
-    public GameObject weapon;
+    //public GameObject weapon;
 }
