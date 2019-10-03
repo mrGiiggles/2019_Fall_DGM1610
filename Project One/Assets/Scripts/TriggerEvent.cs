@@ -4,10 +4,10 @@ using UnityEngine.Events;
 
 public class TriggerEvent : MonoBehaviour
 {
-    public UnityEvent Event;
+    public UnityEvent triggerEvent;
 
     private void OnTriggerEnter(Collider other)
     {
-        Event.Invoke();
+        triggerEvent.Invoke();
     }
 }

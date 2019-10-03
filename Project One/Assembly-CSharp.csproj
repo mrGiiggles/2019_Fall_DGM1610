@@ -73,10 +73,12 @@
     <Compile Include="Assets\Scripts\GetFroot.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
+    <Compile Include="Assets\Scripts\MonoEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Practice.cs" />
     <Compile Include="Assets\Scripts\StartScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEvent.cs" />
+    <Compile Include="Assets\Scripts\UIImageController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Variables.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
