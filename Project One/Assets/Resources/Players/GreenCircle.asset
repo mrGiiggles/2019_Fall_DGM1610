@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035989541158369418481a9d212deb09, type: 3}
+  m_Name: GreenCircle
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: d57579791567c06409467b78a2d7a09b, type: 3}
+  color: {r: 0.051237494, g: 0.9056604, b: 0.012815925, a: 1}
+  prefab: {fileID: 827046451675260664, guid: 6947aa08e700075468271c1d0958bf2d, type: 3}
+  weapon: {fileID: 11400000, guid: 9d1f878076fd90c45b522aa0ead0012e, type: 2}
