@@ -10,9 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 035989541158369418481a9d212deb09, type: 3}
-  m_Name: RedDiammond
+  m_Name: YellowDiammond
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: e8719cfc5f325cd4cb4468143c272095, type: 3}
-  color: {r: 0.9811321, g: 0.0046279924, b: 0.0046279924, a: 1}
+  spriteColor: {r: 1, g: 0.92926645, b: 0, a: 1}
   prefab: {fileID: 827046451675260664, guid: 6947aa08e700075468271c1d0958bf2d, type: 3}
-  weapon: {fileID: 0}
+  health: {fileID: 11400000, guid: 48722b185a9356945847304a539184c7, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: 53ad210c6bf33264c8689a4fca98863c, type: 2}
+  - {fileID: 11400000, guid: 8c0acc1c34f521c4d808e701a01ed9b7, type: 2}
+  shirt: {fileID: 11400000, guid: b1b957b6c09873845aa8ab2e9d16068f, type: 2}
+  pants: {fileID: 11400000, guid: 00b92c6d3a25e0b4d896968a9f7783c5, type: 2}

@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0781df78e08224b468590a32ae0b0cc4, type: 3}
-  m_Name: Sword
+  m_Script: {fileID: 11500000, guid: 57dd7b1d665a34340a41b9f710219c7b, type: 3}
+  m_Name: RedPants
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d57579791567c06409467b78a2d7a09b, type: 3}
   spriteColor: {r: 1, g: 0, b: 0, a: 1}
-  prefab: {fileID: 827046451675260664, guid: dbb34554221b42648af2f97c33599918, type: 3}
-  powerLevel: 10
+  prefab: {fileID: 827046451675260664, guid: 38e0b821863bef5499cf233e7bce9d74, type: 3}

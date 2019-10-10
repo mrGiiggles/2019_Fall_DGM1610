@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using UnityEditor.SceneManagement;
+using UnityEngine;
 
 public class GameArtData : ScriptableObject
 {
     public Sprite sprite;
-    public Color color;
+    public Color spriteColor = Color.red;
     public GameObject prefab;
 }
