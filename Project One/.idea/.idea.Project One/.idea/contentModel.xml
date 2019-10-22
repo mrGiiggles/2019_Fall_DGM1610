@@ -10,6 +10,9 @@
           <e p="Adventure script.cs" t="Include" />
           <e p="Applyforce.cs" t="Include" />
           <e p="CinneMachineController.cs" t="Include" />
+          <e p="Collections" t="Include">
+            <e p="GameArtCollection.cs" t="Include" />
+          </e>
           <e p="DataScripts" t="Include">
             <e p="ClothesData.cs" t="Include" />
             <e p="DefenseData.cs" t="Include" />
