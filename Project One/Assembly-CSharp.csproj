@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\CinneMachineController.cs" />
     <Compile Include="Assets\Scripts\Collections\GameArtCollection.cs" />
+    <Compile Include="Assets\Scripts\Collections\Lists.cs" />
     <Compile Include="Assets\Scripts\DataScripts\ClothesData.cs" />
     <Compile Include="Assets\Scripts\DataScripts\DefenseData.cs" />
     <Compile Include="Assets\Scripts\DataScripts\FloatData.cs" />

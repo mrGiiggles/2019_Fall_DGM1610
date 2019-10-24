@@ -5,15 +5,19 @@ using UnityEngine;
 [CreateAssetMenu]
 public class GameArtCollection : ScriptableObject
 {
-   public List<GameArtData> colletionList;
+   public List<GameArtData> collectionList;
 
    public void AddData(GameArtData obj)
    {
-       if (!obj.collected)
-       {
-           colletionList.Add(obj);
-           obj.collected = true;
-       }
+      if (!collectionList.Contains(obj))
+      {
+         collectionList.Add(obj);
+      }
+   }
+
+   public void RemoveLastItem()
+   {
+      collectionList.RemoveAt(collectionList.Count - 1);
    }
    
 }
