@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
     <Compile Include="Assets\Scripts\Adventure script.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\CinneMachineController.cs" />
@@ -77,6 +78,9 @@
     <Compile Include="Assets\Scripts\DataScripts\IntData.cs" />
     <Compile Include="Assets\Scripts\DataScripts\PlayerData.cs" />
     <Compile Include="Assets\Scripts\DataScripts\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\Debugger.cs" />
+    <Compile Include="Assets\Scripts\DebuggerHandler.cs" />
+    <Compile Include="Assets\Scripts\EnumSwitch.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GetFroot.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />

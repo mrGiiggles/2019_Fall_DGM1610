@@ -20,7 +20,7 @@ public class Functions : MonoBehaviour
     {
         var newPlayer = Instantiate(player);
         newPlayer.layer = 0;
-        newPlayer.active = true;
+        //newPlayer.active = true;
         newPlayer.tag = "Player";
         newPlayer.transform.position = Vector3.zero;
         newPlayer.name = playerName;

@@ -6,6 +6,11 @@
     <e p="C:\Users\10826896\Documents\DGM1610\2019_Fall_DGM1610\Project One" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Resources" t="Include">
+          <e p="Players" t="Include">
+            <e p="PlayerHandler.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Adventure script.cs" t="Include" />
           <e p="Applyforce.cs" t="Include" />
@@ -23,6 +28,9 @@
             <e p="PlayerData.cs" t="Include" />
             <e p="WeaponData.cs" t="Include" />
           </e>
+          <e p="Debugger.cs" t="Include" />
+          <e p="DebuggerHandler.cs" t="Include" />
+          <e p="EnumSwitch.cs" t="Include" />
           <e p="Functions.cs" t="Include" />
           <e p="GetFroot.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
