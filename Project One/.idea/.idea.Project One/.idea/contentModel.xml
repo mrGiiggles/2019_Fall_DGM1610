@@ -19,6 +19,9 @@
             <e p="GameArtCollection.cs" t="Include" />
             <e p="Lists.cs" t="Include" />
           </e>
+          <e p="Coroutines" t="Include">
+            <e p="Coroutines.cs" t="Include" />
+          </e>
           <e p="DataScripts" t="Include">
             <e p="ClothesData.cs" t="Include" />
             <e p="DefenseData.cs" t="Include" />
