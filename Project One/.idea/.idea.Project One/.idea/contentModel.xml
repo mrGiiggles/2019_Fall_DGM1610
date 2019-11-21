@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Resources" t="Include">
+          <e p="Animation" t="Include">
+            <e p="ButtonInput.cs" t="Include" />
+          </e>
           <e p="Players" t="Include">
             <e p="PlayerHandler.cs" t="Include" />
           </e>
@@ -48,6 +51,7 @@
           <e p="UITextController.cs" t="Include" />
           <e p="Variables.cs" t="Include" />
         </e>
+        <e p="StatesBehavior.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

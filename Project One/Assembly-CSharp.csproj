@@ -65,6 +65,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Resources\Animation\ButtonInput.cs" />
     <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
     <Compile Include="Assets\Scripts\Adventure script.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Scripts\UIImageController.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Variables.cs" />
+    <Compile Include="Assets\StatesBehavior.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/10826896/Documents/DGM1610/2019_Fall_DGM1610/Project One/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
