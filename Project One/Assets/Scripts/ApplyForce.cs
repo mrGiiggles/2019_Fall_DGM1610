@@ -8,7 +8,8 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
     private Rigidbody rb;
-    public Vector3 forces;
+    public Vector3Data forceDirection;
+    public float force = 3f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -16,6 +17,6 @@ public class ApplyForce : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        rb.AddForce(forces);
+        rb.AddForce(forceDirection.value*force);
     }
 }

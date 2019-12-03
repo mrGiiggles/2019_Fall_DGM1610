@@ -6,6 +6,7 @@
     <e p="C:\Users\10826896\Documents\DGM1610\2019_Fall_DGM1610\Project One" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="flip.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="Animation" t="Include">
             <e p="ButtonInput.cs" t="Include" />
@@ -45,11 +46,14 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="Practice.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
           <e p="StartScript.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
           <e p="UIImageController.cs" t="Include" />
           <e p="UITextController.cs" t="Include" />
           <e p="Variables.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
+          <e p="WeaponFire.cs" t="Include" />
         </e>
         <e p="StatesBehavior.cs" t="Include" />
       </e>
