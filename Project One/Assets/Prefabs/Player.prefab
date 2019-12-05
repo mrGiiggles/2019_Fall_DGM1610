@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 6750906626580925529}
   - component: {fileID: 9169768409918218849}
   - component: {fileID: 418926596585882213}
+  - component: {fileID: 2299780917180047096}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -254,3 +255,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: f16641acfb3f9eb4988a88db3d5ca1cb, type: 2}
+--- !u!114 &2299780917180047096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175102801219799827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e40654f27eff2754ba593a38adfb241f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 976462d2c505c414e8a570b61e000900, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 6ff478bdd1ce74346a1a569658802f9f, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

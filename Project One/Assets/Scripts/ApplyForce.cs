@@ -13,10 +13,11 @@ public class ApplyForce : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        rb.AddForce(forceDirection.value*force);
     }
 
     private void OnCollisionEnter(Collision other)
     {
-        rb.AddForce(forceDirection.value*force);
+       
     }
 }

@@ -68,6 +68,8 @@
     <Compile Include="Assets\flip.cs" />
     <Compile Include="Assets\Resources\Animation\ButtonInput.cs" />
     <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
+    <Compile Include="Assets\Resources\Weapon\RapidFire.cs" />
+    <Compile Include="Assets\Resources\Weapons\WeaponFire.cs" />
     <Compile Include="Assets\Scripts\Adventure script.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\CinneMachineController.cs" />
@@ -87,6 +89,8 @@
     <Compile Include="Assets\Scripts\DebuggerHandler.cs" />
     <Compile Include="Assets\Scripts\EnumSwitch.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\GameAction.cs" />
+    <Compile Include="Assets\Scripts\GameActionHandler.cs" />
     <Compile Include="Assets\Scripts\GetFroot.cs" />
     <Compile Include="Assets\Scripts\IfStatements.cs" />
     <Compile Include="Assets\Scripts\MonoEvents.cs" />
@@ -99,7 +103,6 @@
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Variables.cs" />
     <Compile Include="Assets\Scripts\Vector3Data.cs" />
-    <Compile Include="Assets\Scripts\WeaponFire.cs" />
     <Compile Include="Assets\StatesBehavior.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/10826896/Documents/DGM1610/2019_Fall_DGM1610/Project One/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
